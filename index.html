@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using JS</title>
+    <link rel="stylesheet" href="style.css"/>    
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" name="display" id="display" readonly>
+                </div>
+                <div>
+                    <button type="button" class="operator" data-action="clear">AC</button>
+                    <button type="button" data-action="delete">DE</button>
+                    <button type="button" class="operator" data-value=".">.</button>
+                    <button type="button" class="operator" data-value="/">/</button>
+                </div>
+                <div>
+                    <button type="button" data-value="7">7</button>
+                    <button type="button" data-value="8">8</button>
+                    <button type="button" data-value="9">9</button>
+                    <button type="button" class="operator" data-value="*">*</button>
+                </div>
+                <div>
+                    <button type="button" data-value="4">4</button>
+                    <button type="button" data-value="5">5</button>
+                    <button type="button" data-value="6">6</button>
+                    <button type="button" class="operator" data-value="-">-</button>
+                </div>
+                <div>
+                    <button type="button" data-value="1">1</button>
+                    <button type="button" data-value="2">2</button>
+                    <button type="button" data-value="3">3</button>
+                    <button type="button" class="operator" data-value="+">+</button>
+                </div>
+                <div>
+                    <button type="button" data-value="00">00</button>
+                    <button type="button" data-value="0">0</button>
+                    <button type="button" class="equal operator" data-action="calculate">=</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
